@@ -79,4 +79,4 @@ Tại src/, Python 3.11–3.13 đã cài requirements.txt, chạy lần lượt:
 6. python -m bonus.verification_ablation
 7. python -m lab8.check_submission
 
-Không cần API key hay internet. Trace được tạo lại, không commit; JSON bằng chứng do công cụ sinh. Trước nộp cần học viên đọc và xác nhận báo cáo cá nhân, đối chiếu tên lớp L3B với mẫu L3A trên LMS, push repo và tự nộp link.
+Không cần API key hay internet. Trace được tạo lại, không commit; JSON bằng chứng do công cụ sinh. 

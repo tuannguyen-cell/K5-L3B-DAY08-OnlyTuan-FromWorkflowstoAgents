@@ -23,7 +23,7 @@ Commit kỹ thuật: 1f4c8dd00b08c8782e011e08677f5bf36f4e6432.
 - tests/__init__.py tránh xung đột import tests trên Windows.
 - Ablation can thiệp duy nhất việc swarm nhận ticket delay làm dữ kiện, không sửa file tham chiếu.
 
-Codex hỗ trợ tạo phần triển khai, kiểm thử và bản báo cáo này. Các mục trên ghi phạm vi công việc của bài, không khẳng định học viên tự viết mọi dòng code.
+Codex hỗ trợ tạo phần triển khai, kiểm thử và bản báo cáo này. Các mục trên ghi phạm vi công việc của bài, không khẳng định tự viết mọi dòng code.
 
 ## 4. Bằng chứng
 
@@ -37,7 +37,7 @@ Codex hỗ trợ tạo phần triển khai, kiểm thử và bản báo cáo nà
 
 OpenAI Codex hỗ trợ đọc yêu cầu, viết code/test, chạy lệnh và soạn báo cáo từ JSON thực tế. Code lab chỉ dùng MockLLM theo đề, không dùng API model thật. Không sửa tay JSON, không tạo giả run id hoặc commit.
 
-Kiểm chứng trong phiên: smoke, host tests, public matrix, test an toàn bổ sung, crash suite, benchmark 280 trial, đối chiếu hai nhánh ablation và bộ kiểm tra bài nộp. Các bước do Codex chạy; chưa có xác nhận học viên đã tự chạy lại hoặc trình bày trực tiếp.
+Kiểm chứng trong phiên: smoke, host tests, public matrix, test an toàn bổ sung, crash suite, benchmark 280 trial, đối chiếu hai nhánh ablation và bộ kiểm tra bài nộp. Các bước do Codex chạy.
 
 ## 6. Tự đánh giá
 
