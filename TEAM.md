@@ -2,53 +2,29 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Lớp: L3A
-- Repo nhóm: `K5-L3A-DAY08-TenNhom-FromWorkflowsToAgents` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt:
+- Tên nhóm: OnlyTuan
+- Lớp: L3B (theo hồ sơ học viên và repo hiện tại).
+- Quy mô: 1 thành viên.
+- Repo nhóm: K5-L3B-DAY08-OnlyTuan-FromWorkflowstoAgents
+- URL repo: https://github.com/tuannguyen-cell/K5-L3B-DAY08-OnlyTuan-FromWorkflowstoAgents
+- Nhánh: main
+- Commit kỹ thuật và số liệu: 1f4c8dd00b08c8782e011e08677f5bf36f4e6432
+- Đề mẫu ghi L3A; giữ L3B theo các bài trước, cần đối chiếu quy ước trên LMS trước khi nộp.
 
 ## Thành viên
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 |        |      |       |        |         |
-|   2 |        |      |       |        |         |
-
-Gợi ý chia vai:
-
-- Nhóm 6 người: integration; workflow; single agent; orchestrator; ledger/policy/crash; eval/report.
-- Nhóm 4 người: workflow + integration; single; orchestrator + handoff; ledger + evaluation.
+| 1 | Nguyễn Văn Tuấn | 2A202604121 | 26ai.tuannv@vinuni.edu.vn | tuannguyen-cell | Tích hợp; ba shape; kiểm thử; benchmark; báo cáo |
 
 ## Bảng đóng góp
 
-`python -m lab8.check_submission` đọc bảng này bằng máy: giữ nguyên tiêu đề `## Bảng đóng góp` và các cột. Mỗi người một dòng: commit có nội dung và ít nhất một test đã thêm hoặc sửa.
-
 | Người | Vai | Commit | Test đã thêm hoặc sửa |
 | --- | --- | --- | --- |
-| | | | |
+| Nguyễn Văn Tuấn | Phụ trách toàn bộ bài trong nhóm một người, có hỗ trợ Codex | 1f4c8dd00b08c8782e011e08677f5bf36f4e6432 | src/tests/test_student_safety.py: 24 ca, gồm 9 ca crash; src/tests/__init__.py xử lý xung đột import |
 
 ## Cá nhân
 
-Mỗi thành viên đồng thời tạo một báo cáo riêng trong `report/` theo dạng:
+Báo cáo: [2A202604121_NguyenVanTuan.md](report/team/2A202604121_NguyenVanTuan.md).
 
-```text
-report/team/MSSV_HoTen.md
-```
-
-Ví dụ: `report/team/20241234_NguyenVanAn.md`.
-
-Sao chép mục dưới đây cho từng thành viên.
-
-## MSSV_HoTen
-
-### Phần việc phụ trách
-
--
-
-### Đóng góp cụ thể
-
--
-
-### Bằng chứng
-
--
+Codex hỗ trợ tạo code, kiểm thử và soạn báo cáo. Bảng đóng góp xác định trách nhiệm của thành viên, không xác nhận học viên đã tự viết từng dòng hoặc tự chạy kiểm thử thủ công.
